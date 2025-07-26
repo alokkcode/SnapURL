@@ -5,8 +5,13 @@
 -----
 
 ## Tech Stack :
-
-\<img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg](https://www.google.com/search?q=https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg)" height="50" /\> \<img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg](https://www.google.com/search?q=https://raw.githubusercontent.com/devicons/devicon/master/icons/vitejs/vitejs-original.svg)" height="50" /\> \<img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg](https://www.google.com/search?q=https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg)" height="50" /\> \<img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg](https://www.google.com/search?q=https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg)" height="50" /\> \<img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg](https://www.google.com/search?q=https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg)" height="50" /\>
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" height="50" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg" height="50" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" height="50" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" height="50" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" height="50" />
+</p>
 
 -----
 
@@ -73,13 +78,13 @@ cd SnapURL
 ### 2\. Setup the Backend
 
 ```bash
-cd backend
+cd BACKEND
 npm install
 ```
 
 **Configure Environment Variables**
 
-Create a `.env` file in the `/backend` directory and add the following variables.
+Create a `.env` file in the `/BACKEND` directory and add the following variables.
 
 ```env
 MONGO_URI=<your mongo-uri>
@@ -92,7 +97,7 @@ JWT_SECRET=<your-jwt-secret>
 ### 3\. Setup the Frontend
 
 ```bash
-cd ../frontend
+cd ../FRONTEND
 npm install
 ```
 
@@ -103,14 +108,14 @@ You will need two separate terminal windows to run both the backend and frontend
 **▶️ Start Backend Server (Terminal 1)**
 
 ```bash
-cd backend
+cd BACKEND
 npm run dev
 ```
 
 **▶️ Start Frontend Server (Terminal 2)**
 
 ```bash
-cd frontend
+cd FRONTEND
 npm run dev
 ```
 
